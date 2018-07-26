@@ -28,23 +28,22 @@ const editTools = {
 }
 const Root = 'http://localhost:8080/';
 
- const _renderLeft = () => {
-
+ const renderLeft = () => {
+     let header__Left = null
     if(location.href == Root ){
-        return 'manage'
+         header__Left = 'manage'
 
     }
     else if(location.href== Root+'/chats' || location.href== Root+'/chat'){
-
-        return 'edit'
-
+        header__Left = 'edit'
     }
     else{
         console.log(location.href)
-        return false
+        header__Left = null
     }
+    return header__Left;
 }
-function Header (renderLeft){
+function Header ({renderLeft}){
         return(
             <div className="header">
                 <div className="header-top">
@@ -75,7 +74,7 @@ function Header (renderLeft){
                 </div>
                 <div className="header-bottom">
                     <span className="header-bottom__tool header__bottom__left">
-                        {console.log(renderLeft)}
+                        {console.log({renderLeft})}
                     </span>
 
                     <span className="header-bottom__tool">
