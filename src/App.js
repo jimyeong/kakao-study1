@@ -16,6 +16,7 @@ class App extends React.Component{
         }
     }
 
+
     render(){
         return(
             <div className="wrapper">
@@ -23,7 +24,7 @@ class App extends React.Component{
 
                 <main className="main">
                     <Route exact path='/' component={Friends}/>
-                    <Route path='/chats/' component={Chats}/>
+                    <Route path='/chats' component={Chats}/>
                     <Route path='/find' component={Find}/>
                     <Route path="/more" component={More}/>
 

@@ -38,10 +38,10 @@
 }
 .header-bottom{
   padding: 0 10px;
-  padding-bottom: 5px;
   display: flex;
   justify-content:space-between;
   align-items:center;
+  height: 27px;
   &__tool{
     color: #ffffff;
     text-transform: capitalize;
@@ -54,5 +54,9 @@
     width: 18px;
     color: inherit;
   }
+  .header-bottom__tool:first-child{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
 
 }

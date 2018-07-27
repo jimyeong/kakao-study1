@@ -1,0 +1,42 @@
+.friends{
+
+
+  &__section{
+  }
+  &__section-header{
+    padding: 10px 15px;
+    font-size: 13px;
+    color: #c1c1c1;
+    text-transform: capitalize;
+
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    box-sizing:border-box;
+  }
+  &__item{
+    padding: 10px 15px;
+    border-bottom: 1px solid #eeeeee;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  &__item:first-child{
+
+  }
+  &__inner{
+    display: flex;
+    align-items:center;
+    text-transform: capitalize;
+    font-size: 15px;
+  }
+  &__inner img{
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 10px;
+
+  }
+}
