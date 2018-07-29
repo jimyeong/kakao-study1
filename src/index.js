@@ -6,7 +6,7 @@ import './assets/scss/style.scss';
 
 
 const Root = (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
         <App/>
     </BrowserRouter>
 )
