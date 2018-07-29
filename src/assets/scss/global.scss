@@ -1,4 +1,30 @@
 .main{
   padding-top: 62px;
   padding-bottom: 62px;
+  -webkit-animation: fadeInSlowly .3s linear;
+  -o-animation: fadeInSlowly .3s linear;
+  animation: fadeInSlowly .3s linear;
+}
+main.type-chat{
+  padding-bottom: 0;
+}
+
+@keyframes fadeInSlowly {
+  0%{
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  100%{
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+  
 }

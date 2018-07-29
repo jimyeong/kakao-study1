@@ -6,6 +6,8 @@ import Friends from "./assets/components/friends/Friends";
 import Chats from "./assets/components/chats/Chats";
 import Find from "./assets/components/find/Find";
 import More from "./assets/components/more/More";
+import Profile from "./assets/components/profile/Profile";
+import Chat from "./assets/components/chat/Chat";
 
 class App extends React.Component{
     constructor(props){
@@ -22,15 +24,17 @@ class App extends React.Component{
             <div className="wrapper">
                 <Header/>
 
-                <main className="main">
+                <div className="wrapper">
                     <Route exact path='/' component={Friends}/>
-                    <Route path='/chats' component={Chats}/>
+                    <Route exact path='/chats' component={Chats}/>
                     <Route path='/find' component={Find}/>
                     <Route path="/more" component={More}/>
-
-
-                </main>
-                <Nav/>
+                    <Route path="/friends/profile" component={Profile}/>
+                    <Route path="/chats/chat" component={Chat}/>
+                </div>
+                <div className="nav-route">
+                    <Route path="/" component={Nav}/>
+                </div>
 
             </div>
         )

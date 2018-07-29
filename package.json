@@ -22,6 +22,7 @@
     "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
+    "img-loader": "^3.0.0",
     "node-sass": "^4.9.2",
     "proxy": "^0.2.4",
     "react": "^16.4.1",

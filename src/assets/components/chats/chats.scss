@@ -13,6 +13,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  &__item:hover{
+    background-color: #eeeeee;
   }
   &__inner{
     display: flex;
