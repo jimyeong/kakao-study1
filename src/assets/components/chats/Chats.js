@@ -21,7 +21,7 @@ class Chats extends React.Component{
                     <div className="chats__section chats__my-section">
                         <ul className="chats__list">
                             <li className="chats__item">
-                                <NavLink className ="chats__inner" to="/chats/chat">
+                                <NavLink className ="chats__inner" to="/kakao-study1/chats/chat">
                                     <img src={Avatar} alt="avatar"/>
                                     <span className="chats__state">
                                     <span className="chats__name">
@@ -35,7 +35,7 @@ class Chats extends React.Component{
                             </span>
                             </li>
                             <li className="chats__item">
-                                <NavLink className ="chats__inner" to="/chats/chat">
+                                <NavLink className ="chats__inner" to="/kakao-study1/chats/chat">
                                     <img src={Avatar} alt="avatar"/>
                                     <span className="chats__state">
                                     <span className="chats__name">
@@ -53,7 +53,7 @@ class Chats extends React.Component{
                     <div className="chats__section chats__your-section">
                         <ul className="chats__list">
                             <li className="chats__item">
-                                <NavLink className ="chats__inner" to="/chats/chat">
+                                <NavLink className ="chats__inner" to="/kakao-study1/chats/chat">
                                     <img src={Avatar} alt="avatar"/>
                                     <span className="chats__state">
                                     <span className="chats__name">
@@ -67,7 +67,7 @@ class Chats extends React.Component{
                             </span>
                             </li>
                             <li className="chats__item">
-                                <NavLink className ="chats__inner" to="/chats/chat">
+                                <NavLink className ="chats__inner" to="/kakao-study1/chats/chat">
                                     <img src={Avatar} alt="avatar"/>
                                     <span className="chats__state">
                                     <span className="chats__name">

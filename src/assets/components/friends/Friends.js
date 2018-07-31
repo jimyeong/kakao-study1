@@ -24,13 +24,13 @@ class Friends extends React.Component{
                         </header>
                         <ul className="friends__list">
                             <li className="friends__item">
-                                <NavLink className ="friends__inner" to="/friends/profile">
+                                <NavLink className ="friends__inner" to="/kakao-study1/friends/profile">
                                     <img src={Avatar} alt="avatar"/>
                                     nicolas
                                 </NavLink>
                             </li>
                             <li className="friends__item">
-                                <NavLink className ="friends__inner" to="/friends/profile">
+                                <NavLink className ="friends__inner" to="/kakao-study1/friends/profile">
                                     <img src={Avatar} alt="avatar"/>
                                     friends name display
                                 </NavLink>
@@ -43,13 +43,13 @@ class Friends extends React.Component{
                         </header>
                         <ul className="friends__list">
                             <li className="friends__item">
-                                <NavLink className ="friends__inner" to="/friends/profile">
+                                <NavLink className ="friends__inner" to="/kakao-study1/friends/profile">
                                     <img src={Avatar} alt="avatar"/>
                                     friends name display
                                 </NavLink>
                             </li>
                             <li className="friends__item">
-                                <NavLink className ="friends__inner" to="/friends/profile">
+                                <NavLink className ="friends__inner" to="/kakao-study1/friends/profile">
                                     <img src={Avatar} alt="avatar"/>
                                     friends name display
                                 </NavLink>

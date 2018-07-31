@@ -25,15 +25,15 @@ class App extends React.Component{
                 <Header/>
 
                 <div className="wrapper">
-                    <Route exact path='/' component={Friends}/>
-                    <Route exact path='/chats' component={Chats}/>
-                    <Route path='/find' component={Find}/>
-                    <Route path="/more" component={More}/>
-                    <Route path="/friends/profile" component={Profile}/>
-                    <Route path="/chats/chat" component={Chat}/>
+                    <Route exact path='/kakao-study1/' component={Friends}/>
+                    <Route exact path='/kakao-study1/chats' component={Chats}/>
+                    <Route path='/kakao-study1/find' component={Find}/>
+                    <Route path="/kakao-study1/more" component={More}/>
+                    <Route path="/kakao-study1/friends/profile" component={Profile}/>
+                    <Route path="/kakao-study1/chats/chat" component={Chat}/>
                 </div>
                 <div className="nav-route">
-                    <Route path="/" component={Nav}/>
+                    <Route path="/kakao-study1/" component={Nav}/>
                 </div>
 
             </div>

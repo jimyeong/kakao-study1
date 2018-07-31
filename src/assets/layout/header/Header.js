@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.scss';
-const Root = 'http://localhost:8080/';
+const RootPath = 'https://jimyeong.github.io/kakao-study1/';
 
 class Header extends React.Component{
 
@@ -17,7 +17,7 @@ class Header extends React.Component{
 
     }
     renderTask(){
-        if(location.href == Root){
+        if(location.href == RootPath){
             return (
                 <div className="header">
                     <div className="header-top">
@@ -60,7 +60,7 @@ class Header extends React.Component{
                     </div>
                 </div>
             )
-        }else if(location.href == Root+'chats' ){
+        }else if(location.href == RootPath+'chats' ){
             return(
                 <div className="header">
                     <div className="header-top">
@@ -102,7 +102,7 @@ class Header extends React.Component{
                 </div>
                 </div>
             )
-        } else if(location.href == Root+'find'){
+        } else if(location.href == RootPath+'find'){
             return(
                 <div className="header">
                     <div className="header-top">
@@ -143,7 +143,7 @@ class Header extends React.Component{
                 </div>
                 </div>
             )
-        }else if(location.href == Root+'more'){
+        }else if(location.href == RootPath+'more'){
             return(
                 <div className="header">
                     <div className="header-top">
@@ -185,7 +185,7 @@ class Header extends React.Component{
                 </div>
             )
         }
-        else if(location.href == Root+'friends/profile'){
+        else if(location.href == RootPath +'friends/profile'){
             return(
                 <div className="header type-profile">
                     <div className="header-top">
@@ -227,7 +227,7 @@ class Header extends React.Component{
                 </div>
             )
         }
-        else if(location.href == Root+'chats/chat'){
+        else if(location.href == RootPath+'chats/chat'){
             return(
                 <div className="header type-chat">
                     <div className="header-top">
